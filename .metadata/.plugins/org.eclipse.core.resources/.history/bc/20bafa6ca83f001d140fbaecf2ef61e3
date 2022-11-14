@@ -1,0 +1,80 @@
+package addAnnotation;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+import com.github.javaparser.StaticJavaParser;
+import com.github.javaparser.ast.CompilationUnit;
+
+public class Main {
+	public void exec(String path) {
+		Visitor visitor = new Visitor();
+
+		boolean isChange = false;
+
+		// JavaParseでjavaファイルを解析し、listへ行数を追加する。
+		try {
+			Path source = Paths.get(path);
+			CompilationUnit unit = StaticJavaParser.parse(source);
+			unit.accept(visitor, null);
+		} catch (IOException e) {
+			e.printStackTrace(System.err);
+		}
+
+
+		// 対象のjavaファイルの中身を読み込む
+		List<String> javaCode = new ArrayList<>();
+		try(BufferedReader  br = new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"))) {
+			String line;
+			while((line = br.readLine()) != null) {
+				javaCode.add(line);
+			}
+			br.readLine();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+
+		// ソースコードの下から順番にアノテーションを追加
+		visitor.insertAnnotationLine.forEach(x -> {
+			System.out.println(x + "行目にアノテーションを追加");
+			javaCode.add(x - 1, "\t@WithSpan");
+		});
+
+		// importが存在するか確認し、無かったら追加する (jp.mobcast... の一つ上に追加)
+		if(!visitor.importList.contains("io.opentelemetry.instrumentation.annotations.WithSpan")) {
+			Integer insertImportLine = Objects.isNull(visitor.importMobcastFirstLine) ? visitor.importFirstLine : visitor.importMobcastFirstLine;
+
+			System.out.println(insertImportLine + "行目にインポートを追加");
+			javaCode.add(insertImportLine - 1, "import io.opentelemetry.instrumentation.annotations.WithSpan;");
+			isChange = true;
+		}
+
+
+		if(isChange) {
+			try(BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(path), "UTF-8"))) {
+				javaCode.forEach(x -> {
+					try {
+						bw.write(x);
+						bw.newLine();
+					} catch (IOException e) {
+						// TODO 自動生成された catch ブロック
+						e.printStackTrace();
+					}
+				});
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

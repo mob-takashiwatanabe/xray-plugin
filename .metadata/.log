@@ -1,0 +1,714 @@
+
+!ENTRY org.eclipse.pde.build 4 17 2022-09-28 18:59:27.918
+!MESSAGE フィーチャーを作成できませんでした: file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.918
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.918
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 1 2022-09-28 18:59:27.919
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.919
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.919
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 17 2022-09-28 18:59:27.941
+!MESSAGE フィーチャーを作成できませんでした: file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.941
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.941
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 1 2022-09-28 18:59:27.942
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.942
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 18:59:27.942
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 16 2022-09-28 18:59:28.447
+!MESSAGE プラグイン addAnnotationPlugin では、プロパティー source.lib/addAnnotation-1.0.0-jar-with-dependencies.jar の値が設定されていません。
+
+!ENTRY org.eclipse.pde.build 4 17 2022-09-28 19:00:59.256
+!MESSAGE フィーチャーを作成できませんでした: file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.256
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.256
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 1 2022-09-28 19:00:59.257
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.257
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.257
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 17 2022-09-28 19:00:59.280
+!MESSAGE フィーチャーを作成できませんでした: file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.280
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.280
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 1 2022-09-28 19:00:59.281
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.281
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:00:59.281
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 17 2022-09-28 19:10:46.538
+!MESSAGE フィーチャーを作成できませんでした: file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.539
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.539
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 1 2022-09-28 19:10:46.539
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.539
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/dropins/EclipseRCP/eclipse/features/org.eclipse.epp.package.rcp.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.539
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 17 2022-09-28 19:10:46.563
+!MESSAGE フィーチャーを作成できませんでした: file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.564
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.564
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.pde.build 4 1 2022-09-28 19:10:46.564
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!STACK 1
+org.eclipse.core.runtime.CoreException: フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:255)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.564
+!MESSAGE フィーチャーの構文解析中に問題が発生しました。 file:C:/pleiades/4.6.3/eclipse/features/org.eclipse.epp.package.jee.feature_4.6.3.20170314-1500/feature.xml。
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2022-09-28 19:10:46.564
+!MESSAGE フィーチャー解析中のエラー: "require" は少なくとも 1 つの "import" 要素が含まれている必要があります。
+
+!ENTRY org.eclipse.jface.text 2 0 2022-09-29 11:38:02.276
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2022-09-29 11:38:02.277
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2022-09-29 11:38:02.285
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-09-29 11:38:05.368
+!MESSAGE Failed to download org.eclipse.recommenders:index::zip:0.0.0
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2022-09-29 11:38:05.369
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+!SESSION 2022-10-04 18:49:03.528 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-04 18:49:14.472
+!MESSAGE ワークスペースは以前のセッションで変更が保存されずに終了しました； 変更を回復するためにワークスペースをリフレッシュ中です。
+
+!ENTRY org.eclipse.ui 2 0 2022-10-04 18:49:14.974
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-04 18:49:14.974
+!MESSAGE Commands should really have a category: plug-in='net.sf.eclipsecs.ui', id='CheckstylePlugin.PurgeCaches', categoryId='net.sf.eclipsecs'
+
+!ENTRY org.eclipse.ui 2 0 2022-10-04 18:49:15.600
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-04 18:49:15.600
+!MESSAGE Commands should really have a category: plug-in='net.sf.eclipsecs.ui', id='CheckstylePlugin.PurgeCaches', categoryId='net.sf.eclipsecs'
+
+!ENTRY org.eclipse.jface 2 0 2022-10-04 18:49:17.733
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 18:49:17.733
+!MESSAGE ALT+CTRL+Z の競合が発生しました:
+Binding(ALT+CTRL+Z,
+	ParameterizedCommand(Command(org.jboss.tools.cdi.ui.open.namedBean,Open CDI Named Bean...,
+		Open CDI Named Bean...,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ba4c99c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+Z,
+	ParameterizedCommand(Command(org.sf.feeling.decompiler.decompile,Decompile,
+		,
+		Category(org.sf.feeling.decompiler,Eclipse クラス逆コンパイラー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4158b72f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-10-04 18:49:25.079
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: redhat.ctrlflow.com. ; バージョン: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: redhat.ctrlflow.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-10-04 18:49:26.911
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Remote host closed connection during handshake. ; バージョン: 2.0.4.v20170307-1435
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:992)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	... 23 more
+
+!ENTRY org.sf.feeling.decompiler 4 0 2022-10-04 18:49:31.559
+!MESSAGE 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sf.feeling.decompiler.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:55)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateUrl(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateVersion(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.isForce(Unknown Source)
+	at org.sf.feeling.decompiler.SetupRunnable$2.run(SetupRunnable.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Node not found: '472922'
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:305)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:314)
+	... 10 more
+Root exception:
+org.eclipse.core.runtime.CoreException: Node not found: '472922'
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:305)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sf.feeling.decompiler.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:55)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateUrl(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateVersion(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.isForce(Unknown Source)
+	at org.sf.feeling.decompiler.SetupRunnable$2.run(SetupRunnable.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2022-10-04 18:51:01.713
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2022-10-04 18:51:01.714
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2022-10-04 18:51:01.719
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-10-04 18:51:05.110
+!MESSAGE Failed to download org.eclipse.recommenders:index::zip:0.0.0
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2022-10-04 18:51:05.112
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+!SESSION 2022-11-14 17:30:07.578 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-14 17:30:16.812
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-14 17:30:16.812
+!MESSAGE Commands should really have a category: plug-in='net.sf.eclipsecs.ui', id='CheckstylePlugin.PurgeCaches', categoryId='net.sf.eclipsecs'
+
+!ENTRY org.eclipse.ui 2 0 2022-11-14 17:30:17.437
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-14 17:30:17.437
+!MESSAGE Commands should really have a category: plug-in='net.sf.eclipsecs.ui', id='CheckstylePlugin.PurgeCaches', categoryId='net.sf.eclipsecs'
+
+!ENTRY org.eclipse.jface 2 0 2022-11-14 17:30:19.189
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-14 17:30:19.189
+!MESSAGE ALT+CTRL+Z の競合が発生しました:
+Binding(ALT+CTRL+Z,
+	ParameterizedCommand(Command(org.jboss.tools.cdi.ui.open.namedBean,Open CDI Named Bean...,
+		Open CDI Named Bean...,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1201c2f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+Z,
+	ParameterizedCommand(Command(org.sf.feeling.decompiler.decompile,Decompile,
+		,
+		Category(org.sf.feeling.decompiler,Eclipse クラス逆コンパイラー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cbf9cc1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-11-14 17:30:32.644
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; バージョン: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.sf.feeling.decompiler 4 0 2022-11-14 17:30:35.785
+!MESSAGE 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sf.feeling.decompiler.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:55)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateUrl(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateVersion(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.isForce(Unknown Source)
+	at org.sf.feeling.decompiler.SetupRunnable$2.run(SetupRunnable.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Node not found: '472922'
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:305)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:314)
+	... 10 more
+Root exception:
+org.eclipse.core.runtime.CoreException: Node not found: '472922'
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:305)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sf.feeling.decompiler.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:55)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateUrl(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateVersion(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.isForce(Unknown Source)
+	at org.sf.feeling.decompiler.SetupRunnable$2.run(SetupRunnable.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-11-14 17:30:41.471
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: redhat.ctrlflow.com. ; バージョン: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: redhat.ctrlflow.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2022-11-14 17:31:58.139 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-14 17:32:03.985
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-14 17:32:03.985
+!MESSAGE Commands should really have a category: plug-in='net.sf.eclipsecs.ui', id='CheckstylePlugin.PurgeCaches', categoryId='net.sf.eclipsecs'
+
+!ENTRY org.eclipse.ui 2 0 2022-11-14 17:32:04.554
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-14 17:32:04.554
+!MESSAGE Commands should really have a category: plug-in='net.sf.eclipsecs.ui', id='CheckstylePlugin.PurgeCaches', categoryId='net.sf.eclipsecs'
+
+!ENTRY org.eclipse.jface 2 0 2022-11-14 17:32:06.250
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-14 17:32:06.250
+!MESSAGE ALT+CTRL+Z の競合が発生しました:
+Binding(ALT+CTRL+Z,
+	ParameterizedCommand(Command(org.jboss.tools.cdi.ui.open.namedBean,Open CDI Named Bean...,
+		Open CDI Named Bean...,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73ae084e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+Z,
+	ParameterizedCommand(Command(org.sf.feeling.decompiler.decompile,Decompile,
+		,
+		Category(org.sf.feeling.decompiler,Eclipse クラス逆コンパイラー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@363a1d8d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-11-14 17:32:18.327
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; バージョン: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.sf.feeling.decompiler 4 0 2022-11-14 17:32:21.166
+!MESSAGE 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sf.feeling.decompiler.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:55)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateUrl(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateVersion(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.isForce(Unknown Source)
+	at org.sf.feeling.decompiler.SetupRunnable$2.run(SetupRunnable.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Node not found: '472922'
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:305)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:314)
+	... 10 more
+Root exception:
+org.eclipse.core.runtime.CoreException: Node not found: '472922'
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:305)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.getNode(DefaultMarketplaceService.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sf.feeling.decompiler.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:55)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateUrl(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.getUpdateVersion(Unknown Source)
+	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.isForce(Unknown Source)
+	at org.sf.feeling.decompiler.SetupRunnable$2.run(SetupRunnable.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-11-14 17:32:27.262
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: redhat.ctrlflow.com. ; バージョン: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: redhat.ctrlflow.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
